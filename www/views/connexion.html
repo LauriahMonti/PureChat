@@ -1,0 +1,15 @@
+<ion-view title="Connexion">
+  <ion-content padding="true">
+    <form>
+      <label class="item item-input">
+        <span class="input-label">Conversation :</span>
+        <input type="text" placeholder="" ng-model="user.conversation">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Pseudonyme:</span>
+        <input type="text" placeholder="" ng-model="user.pseudo">
+      </label>
+      <button class="button button-stable button-block" type="submit" ng-click="save(user)">Connexion</button>
+    </form>
+  </ion-content>
+</ion-view>
