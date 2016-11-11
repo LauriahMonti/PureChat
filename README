@@ -1,0 +1,6 @@
+Chat Ionic avec connexion utilisateur, salon de discussion, synchronisation des messages avec Firebase, 
+message bubble pour chaque intervenants.
+
+Utilisation de Node.js
+Lancez le serveur grâce à la commande "node" suivi du nom du fichier "serveur.js"
+Pour tester l'application ouvrez la avec http://localhost:8080.
